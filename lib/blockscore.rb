@@ -37,7 +37,7 @@ require 'blockscore/fingerprint'
 require 'blockscore/response'
 require 'blockscore/util'
 
-module BlockScore
+module BlockScoreSandbox
   class << self
     attr_accessor :api_key
   end
