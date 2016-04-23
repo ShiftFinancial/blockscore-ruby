@@ -38,7 +38,7 @@ require 'blockscore/response'
 require 'blockscore/util'
 
 module BlockScore
-  class Client
+  class << self
     attr_accessor :api_key
   end
 end
